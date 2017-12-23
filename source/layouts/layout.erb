@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="/favicon.ico">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title %></title>
+
+    <%= stylesheet_link_tag "app" %>
+    <%= javascript_include_tag "jquery.min" %>
+    <%= javascript_include_tag "tether.min" %>
+    <%= javascript_include_tag "bootstrap/bootstrap.min" %>
+    <%= javascript_include_tag "site" %>
+
+  </head>
+
+  <body class="<%= page_classes %>">
+    <%= yield %>
+  </body>
+</html>
