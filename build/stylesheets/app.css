@@ -1,23 +1,19 @@
 @import url(open-iconic-bootstrap.css);
 @import url(bootstrap/bootstrap-grid.min.css);
 @import url(bootstrap/bootstrap.min.css);
-@import url("https://fonts.googleapis.com/css?family=Lora:700|Pacifico|Quicksand|Roboto|Rubik:400;700|Work+Sans:700|Exo:700");
+@import url("https://fonts.googleapis.com/css?family=Barlow:700|Roboto");
 body {
-  font-family: "Rubik";
+  font-family: "Roboto";
   color: #141414; }
 
 h1, h2, h3 {
-  font-family: "Exo";
+  font-family: "Barlow";
   font-weight: 700; }
 
-.bold {
-  font-weight: 700;
-  text-transform: uppercase; }
+footer {
+  background-color: #1BA5B8;
+  height: 20rem;
+  padding-top: 2rem; }
 
-.product-card {
-  margin-bottom: 4rem; }
-  .product-card > a {
-    text-decoration: none;
-    color: #141414; }
-    .product-card > a > .card:hover {
-      box-shadow: 0 0 14px #1abfff; }
+img.profile {
+  zoom: 50%; }
